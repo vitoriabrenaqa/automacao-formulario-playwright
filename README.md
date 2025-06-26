@@ -68,7 +68,7 @@ npx playwright test --project=chromium
 npx playwright test --debug
 ```
 
-## 📊 Relatórios e Resultados
+Relatórios e Resultados
 
 ### Visualizar relatório HTML
 ```bash
