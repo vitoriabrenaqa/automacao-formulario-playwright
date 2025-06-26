@@ -1,19 +1,19 @@
-# 🤖 Automação de Formulário de Contato
+ Automação de Formulário de Contato
 
 Projeto de automação de testes para validação de formulário de contato utilizando Playwright e boas práticas de testing.
 
-## 🎯 Objetivo
+Objetivo
 
 Automatizar e validar o funcionamento do formulário de contato disponível em:
 **https://gleyslla.github.io/teste-de-formulario-de-contato/**
 
-## 🛠️ Tecnologias
+Tecnologias
 
 - **Playwright** - Framework de automação de testes
 - **Node.js** - Runtime JavaScript
 - **Faker.js** - Geração de dados de teste realistas
 
-## 📁 Estrutura do Projeto
+Estrutura do Projeto
 
 ```
 projeto-automacao/
@@ -22,13 +22,13 @@ projeto-automacao/
 └── package.json
 ```
 
-## 🚀 Configuração do Ambiente
+Configuração do Ambiente
 
-### Pré-requisitos
+Pré-requisitos
 - Node.js (versão 16 ou superior)
 - npm ou yarn
 
-### Instalação
+Instalação
 
 1. **Clone o repositório**
    ```bash
@@ -46,42 +46,42 @@ projeto-automacao/
    npx playwright install chromium firefox webkit
    ```
 
-## ⚡ Executando os Testes
+Executando os Testes
 
-### Execução completa
+Execução completa
 ```bash
 npx playwright test
 ```
 
-### Execução com interface gráfica
+Execução com interface gráfica
 ```bash
 npx playwright test --ui
 ```
 
-### Execução em navegador específico
+Execução em navegador específico
 ```bash
 npx playwright test --project=chromium
 ```
 
-### Execução com debug
+Execução com debug
 ```bash
 npx playwright test --debug
 ```
 
-## 📊 Relatórios e Resultados
+Relatórios e Resultados
 
-### Visualizar relatório HTML
+Visualizar relatório HTML
 ```bash
 npx playwright show-report
 ```
 
-### Captura de evidências
+Captura de evidências
 Os testes geram automaticamente:
 - Screenshots em caso de falha
 - Vídeos da execução
 - Trace files para debug
 
-## 🧪 Cenários de Teste
+Cenários de Teste
 
 O projeto inclui validações para:
 - ✅ Preenchimento obrigatório de campos
@@ -90,7 +90,7 @@ O projeto inclui validações para:
 - ✅ Mensagens de erro e sucesso
 - ✅ Responsividade em diferentes dispositivos
 
-## 🔧 Configurações Personalizadas
+Configurações Personalizadas
 
 As configurações podem ser ajustadas no arquivo `playwright.config.js`:
 - Timeout de testes
@@ -99,7 +99,7 @@ As configurações podem ser ajustadas no arquivo `playwright.config.js`:
 - Paralelização
 
 
-## 🤝 Contribuindo
+Contribuindo
 
 1. Faça fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
@@ -107,6 +107,6 @@ As configurações podem ser ajustadas no arquivo `playwright.config.js`:
 4. Push para a branch (`git push origin feature/nova-funcionalidade`)
 5. Abra um Pull Request
 
-## 📄 Licença
+Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
