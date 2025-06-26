@@ -1,19 +1,19 @@
-# 🤖 Automação de Formulário de Contato
+Automação de Formulário de Contato
 
 Projeto de automação de testes para validação de formulário de contato utilizando Playwright e boas práticas de testing.
 
-## 🎯 Objetivo
+Objetivo
 
 Automatizar e validar o funcionamento do formulário de contato disponível em:
 **https://gleyslla.github.io/teste-de-formulario-de-contato/**
 
-## 🛠️ Tecnologias
+Tecnologias
 
 - **Playwright** - Framework de automação de testes
 - **Node.js** - Runtime JavaScript
 - **Faker.js** - Geração de dados de teste realistas
 
-## 📁 Estrutura do Projeto
+Estrutura do Projeto
 
 ```
 projeto-automacao/
@@ -22,13 +22,13 @@ projeto-automacao/
 └── package.json
 ```
 
-## 🚀 Configuração do Ambiente
+Configuração do Ambiente
 
-### Pré-requisitos
+Pré-requisitos
 - Node.js (versão 16 ou superior)
 - npm ou yarn
 
-### Instalação
+Instalação
 
 1. **Clone o repositório**
    ```bash
@@ -46,7 +46,7 @@ projeto-automacao/
    npx playwright install chromium firefox webkit
    ```
 
-## ⚡ Executando os Testes
+Executando os Testes
 
 ### Execução completa
 ```bash
@@ -75,13 +75,13 @@ npx playwright test --debug
 npx playwright show-report
 ```
 
-### Captura de evidências
+Captura de evidências
 Os testes geram automaticamente:
 - Screenshots em caso de falha
 - Vídeos da execução
 - Trace files para debug
 
-## 🧪 Cenários de Teste
+Cenários de Teste
 
 O projeto inclui validações para:
 - ✅ Preenchimento obrigatório de campos
@@ -90,7 +90,7 @@ O projeto inclui validações para:
 - ✅ Mensagens de erro e sucesso
 - ✅ Responsividade em diferentes dispositivos
 
-## 🔧 Configurações Personalizadas
+ Configurações Personalizadas
 
 As configurações podem ser ajustadas no arquivo `playwright.config.js`:
 - Timeout de testes
@@ -99,7 +99,7 @@ As configurações podem ser ajustadas no arquivo `playwright.config.js`:
 - Paralelização
 
 
-## 🤝 Contribuindo
+Contribuindo
 
 1. Faça fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
